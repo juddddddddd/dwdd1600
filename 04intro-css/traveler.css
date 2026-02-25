@@ -1,0 +1,125 @@
+body {
+    font-family: "Playpen Sans Thai", cursive;
+    margin: 0;
+}
+
+/* header stuff here*/
+header {
+    background-color: #2AD5DB;
+    padding: 1rem 40px;
+}
+
+header span {
+    color: #F87B1B;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #F1E6C9;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 20px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #051E3E;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #051E3E;
+    color: #F1E6C9;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 20px;
+}
+
+main h1 {
+    color: #F87B1B;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+main h2 {
+    color: #051E3E;
+    margin-left: 10px;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #ABDADC;
+}
+
+main dl dt {
+    color: #F87B1B;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #2AD5DB;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #F1E6C9;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #051E3E;
+    width: 200px;
+}
+
+main a {
+    color: #ABDADC;
+}
+
+main a:hover {
+    color: #F87B1B;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #F1E6C9;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #051E3E;
+    letter-spacing: 3px;
+}
