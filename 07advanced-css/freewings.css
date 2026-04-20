@@ -156,6 +156,12 @@ main a:hover {
     color: #F87B1B;
 }
 
+/* hero image stuff here */
+.hero {
+    width: 100%;
+    height: auto;
+}
+
 /* main image stuff here */
 figure.yourname {
     margin: 0 0 0 10px;
